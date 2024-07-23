@@ -5,7 +5,7 @@ public class App {
         System.out.println(hello);
     }
 
-    void add(){
-        System.out.println("Add two numbers" + hello);
+    String add(){
+         return hello;
     }
 }
