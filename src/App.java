@@ -1,11 +1,12 @@
 public class App {
-    String hello = "Hello, World!";
+    static String hello = "Luka";
     public static void main(String[] args) {
-        String hello = "Hello, World!";
+        String name = add();
+        String hello = "Hello" + name + " welcome to World!";
         System.out.println(hello);
     }
 
-    void add(){
-        System.out.println("Add two numbers" + hello);
+  static  String add(){
+         return hello;
     }
 }
