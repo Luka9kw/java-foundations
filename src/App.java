@@ -3,4 +3,8 @@ public class App {
         String hello = "Hello, World!";
         System.out.println(hello);
     }
+    
+    void add(){
+        System.out.println("Add two numbers");
+    }
 }
